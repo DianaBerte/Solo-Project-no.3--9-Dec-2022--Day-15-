@@ -102,17 +102,27 @@ console.log(tdNode)
 
 console.log("\n---------------------------------exercise 33-----------------------------\n")
 
-//Use a loop for printing the text inside of every <td> element in the page
-
 let allTheTdNodes = tdNode;
 
 for (let i = 0; i < tdNode.length; i++) {
     console.log(allTheTdNodes[i].innerText);
 }
 
-console.log("\n---------------------------------exercise 36-----------------------------\n")
+console.log("\n---------------------------------exercise 34-----------------------------\n")
 
-//Write a function to add a class of "test" to each row in the table
+
+console.log("\n---------------------------------exercise 35-----------------------------\n")
+
+//Write a function to add an extra row to the table
+
+function addExtraRow () {
+    let newRow = document.createElement('td');
+    newRow.innerText = "Added Extra Row";
+
+    document.getElementById("tableContainer").appendChild(newRow)
+}
+
+console.log("\n---------------------------------exercise 36-----------------------------\n")
 
 function addTestClass () {
     let rowsNode = document.querySelectorAll("td");
