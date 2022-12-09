@@ -41,3 +41,34 @@ console.log(Math.max.apply(Math, array));
 console.log(Math.min.apply(Math, array));
 
 console.log("\n---------------------------------exercise 28-----------------------------\n")
+
+let arr2 = [];
+for (let i = 0; i<3; i++) {
+    let current = [];
+    for (let j = 0; j < 10; j++)
+    current.push(Math.floor(Math.random() *10));
+    arr2.push(current);
+}
+
+console.log(arr2)
+
+console.log("\n---------------------------------exercise 29-----------------------------\n")
+
+//Create a function that gets 2 arrays as parameters and returns the longest one
+
+function myFunc (array1, array2) {
+    
+    let max_str = array1[0].length;
+
+    let ans = array1[0];
+    for (let i = 1; i<array1.length; i++) {
+        let maxi = array1[i].length;
+        if (maxi > max_str) {
+            ans = array1[i];
+            max_str = maxi
+        }
+    }
+    return ans
+}
+
+console.log(myFunc(["a", "njcdnjddnjc", "kd"]))
