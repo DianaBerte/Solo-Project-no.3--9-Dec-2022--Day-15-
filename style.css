@@ -19,7 +19,6 @@ a {
 table {
     border: solid black;
     border-radius: 10px;
-    /*border-collapse: collapse;*/
 }
 
 p {
@@ -39,6 +38,6 @@ td {
     border: solid green;
 }
 
-tr {
+tr td {
     border: 1px solid red;
 }

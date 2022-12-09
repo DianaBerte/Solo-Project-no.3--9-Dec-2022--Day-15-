@@ -37,3 +37,7 @@ console.log(array)
 
 console.log("\n---------------------------------exercise 27-----------------------------\n")
 
+console.log(Math.max.apply(Math, array));
+console.log(Math.min.apply(Math, array));
+
+console.log("\n---------------------------------exercise 28-----------------------------\n")
