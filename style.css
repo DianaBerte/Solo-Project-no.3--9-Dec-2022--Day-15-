@@ -13,12 +13,13 @@ a {
 }
 
 .bordered-sth {
-    border: 1px solid green;
+    border: 1px solid blue;
 }
 
 table {
     border: solid black;
-    border-radius: 30px;
+    border-radius: 10px;
+    /*border-collapse: collapse;*/
 }
 
 p {
@@ -34,3 +35,10 @@ p {
     visibility: hidden;
 }
 
+td {
+    border: solid green;
+}
+
+tr {
+    border: 1px solid red;
+}
