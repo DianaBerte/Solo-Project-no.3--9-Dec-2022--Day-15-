@@ -112,3 +112,13 @@ for (let i = 0; i < tdNode.length; i++) {
 
 console.log("\n---------------------------------exercise 36-----------------------------\n")
 
+//Write a function to add a class of "test" to each row in the table
+
+function addTestClass () {
+    let rowsNode = document.querySelectorAll("td");
+    for (let row of rowsNode) {
+        row.classList.add("Test");
+    }
+}
+
+addTestClass()
