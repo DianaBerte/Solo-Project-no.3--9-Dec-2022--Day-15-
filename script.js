@@ -31,10 +31,9 @@ console.log(arr)
 
 console.log("\n---------------------------------exercise 26-----------------------------\n")
 
-//Create an array with 100 random numbers in it
+let array = Array.from({length: 100}, () => Math.floor(Math.random() *200));
 
-let arrayLength = 100;
-let randomArray = [];
-for (let i=0; i<arrayLength; i++) {randomArray.push(Math.random())}
+console.log(array)
 
-console.log(randomArray)
+console.log("\n---------------------------------exercise 27-----------------------------\n")
+
