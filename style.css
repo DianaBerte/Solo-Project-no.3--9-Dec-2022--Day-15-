@@ -1,4 +1,36 @@
+body {
+    max-width: 60%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: crimson;
+}
+
+.bordered-sth {
+    border: 1px solid green;
+}
+
 table {
     border: solid black;
-    
+    border-radius: 30px;
 }
+
+p {
+    margin: auto;
+}
+
+.different-font-size-and-text-weight {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.hide {
+    visibility: hidden;
+}
+
