@@ -56,11 +56,11 @@ console.log("\n---------------------------------exercise 29---------------------
 
 //Create a function that gets 2 arrays as parameters and returns the longest one
 
-function myFunc (array1, array2) {
-    
-    let max_str = array1[0].length;
+/*function myFunc (array1, array2) {
 
+    let max_str = array1[0].length;
     let ans = array1[0];
+
     for (let i = 1; i<array1.length; i++) {
         let maxi = array1[i].length;
         if (maxi > max_str) {
@@ -71,4 +71,44 @@ function myFunc (array1, array2) {
     return ans
 }
 
-console.log(myFunc(["a", "njcdnjddnjc", "kd"]))
+console.log(myFunc(["a", "njcdnjddnjc", "kd"]))*/
+
+/*let array1 = ["asd", "asdasd", "asdasdasd"];
+let array2 = ["asd", "asdasdasdasd", "asdasd"];
+
+function myFunc (array1, array2) {
+    if (array1 > array2) {
+        return array1;
+    } else {
+        return array2
+    }
+}
+
+console.log([array1, array2])*/
+
+console.log("\n---------------------------------exercise 30-----------------------------\n")
+
+//Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
+
+console.log("\n---------------------------------exercise 31-----------------------------\n")
+
+let idNode = document.getElementById('container');
+console.log(idNode)
+
+console.log("\n---------------------------------exercise 32-----------------------------\n")
+
+let tdNode = document.getElementsByTagName('td');
+console.log(tdNode)
+
+console.log("\n---------------------------------exercise 33-----------------------------\n")
+
+//Use a loop for printing the text inside of every <td> element in the page
+
+let allTheTdNodes = tdNode;
+
+for (let i = 0; i < tdNode.length; i++) {
+    console.log(allTheTdNodes[i].innerText);
+}
+
+console.log("\n---------------------------------exercise 36-----------------------------\n")
+
