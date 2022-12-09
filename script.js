@@ -110,10 +110,11 @@ for (let i = 0; i < tdNode.length; i++) {
 
 console.log("\n---------------------------------exercise 34-----------------------------\n")
 
+function changeTitle () {
+    let h1Node = document.getElementById("title").innerHTML = "New Title!"
+}
 
 console.log("\n---------------------------------exercise 35-----------------------------\n")
-
-//Write a function to add an extra row to the table
 
 function addExtraRow () {
     let newRow = document.createElement('td');
