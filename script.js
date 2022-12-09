@@ -71,6 +71,8 @@ console.log("\n---------------------------------exercise 29---------------------
     return ans
 }
 
+
+
 console.log(myFunc(["a", "njcdnjddnjc", "kd"]))*/
 
 /*let array1 = ["asd", "asdasd", "asdasdasd"];
