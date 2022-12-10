@@ -79,8 +79,6 @@ console.log(arr2)
 
 console.log("\n---------------------------------exercise 29-----------------------------\n")
 
-//Create a function that gets 2 arrays as parameters and returns the longest one:
-
 let arr3 = [];
 let arr4 = [];
 
@@ -94,68 +92,6 @@ function longestArray(arr3, arr4) {
 }
 
 console.log(longestArray(["l", "theLongest"], ["long", "longer", "actually the longest"]))
-
-/*let arr3 = ["l", "theLongest"];
-let arr4 = ["long", "longer"];
-
-function longestArray(arr3, arr4) {
-
-    longestArray = arr3[i];
-
-    for (let i=0; i<arr3.length; i++){
-
-        if (longestArray.length < arr3.length){
-            return arr3;
-        } else {
-            return arr4
-        }
-    }
-    
-}
-
-longestArray()*/
-
-
-
-
-
-
-
-
-
-
-
-/*function myFunc (array1, array2) {
-
-    let max_str = array1[0].length;
-    let ans = array1[0];
-
-    for (let i = 1; i<array1.length; i++) {
-        let maxi = array1[i].length;
-        if (maxi > max_str) {
-            ans = array1[i];
-            max_str = maxi
-        }
-    }
-    return ans
-}
-
-
-
-console.log(myFunc(["a", "njcdnjddnjc", "kd"]))*/
-
-/*let array1 = ["asd", "asdasd", "asdasdasd"];
-let array2 = ["asd", "asdasdasdasd", "asdasd"];
-
-function myFunc (array1, array2) {
-    if (array1 > array2) {
-        return array1;
-    } else {
-        return array2
-    }
-}
-
-console.log([array1, array2])*/
 
 console.log("\n---------------------------------exercise 30-----------------------------\n")
 
