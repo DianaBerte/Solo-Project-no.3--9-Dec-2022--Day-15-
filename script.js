@@ -31,14 +31,50 @@ console.log(arr)
 
 console.log("\n---------------------------------exercise 26-----------------------------\n")
 
-let array = Array.from({length: 100}, () => Math.floor(Math.random() *200));
+//let array = Array.from({length: 100}, () => Math.floor(Math.random() *200));
+//console.log(array)
 
-console.log(array)
+// Create an array with 100 random numbers in it:
+let arrayOf100RandomNumbers = [];
+for (let i = 0; i < 100; i++ ) {
+    arrayOf100RandomNumbers.push(Math.floor(Math.random() *100))
+}
+
+console.log(arrayOf100RandomNumbers)
+
 
 console.log("\n---------------------------------exercise 27-----------------------------\n")
 
-console.log(Math.max.apply(Math, array));
-console.log(Math.min.apply(Math, array));
+//console.log(Math.max.apply(Math, array));
+//console.log(Math.min.apply(Math, array));
+
+//Write a function to get the maximum and minimum values from the previously created array:
+function minAndMax () {
+    let max = arrayOf100RandomNumbers[0];
+    let min = arrayOf100RandomNumbers[0];
+
+    for (let i=0; i < arrayOf100RandomNumbers.length; i++ ) {
+        if (arrayOf100RandomNumbers[i] > max) {
+            max = arrayOf100RandomNumbers[i]
+        }
+        if (arrayOf100RandomNumbers[i] < min) {
+            min = arrayOf100RandomNumbers[i]
+        }
+    }
+}
+
+minAndMax()
+
+
+
+
+
+
+
+
+
+
+
 
 console.log("\n---------------------------------exercise 28-----------------------------\n")
 
