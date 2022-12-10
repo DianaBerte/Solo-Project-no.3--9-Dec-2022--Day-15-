@@ -42,14 +42,13 @@ for (let i = 0; i < 100; i++ ) {
 
 console.log(arrayOf100RandomNumbers)
 
-
 console.log("\n---------------------------------exercise 27-----------------------------\n")
 
 //console.log(Math.max.apply(Math, array));
 //console.log(Math.min.apply(Math, array));
 
 //Write a function to get the maximum and minimum values from the previously created array:
-function minAndMax () {
+function minAndMax() {
     let max = arrayOf100RandomNumbers[0];
     let min = arrayOf100RandomNumbers[0];
 
@@ -61,20 +60,10 @@ function minAndMax () {
             min = arrayOf100RandomNumbers[i]
         }
     }
+    return {min, max}
 }
 
-minAndMax()
-
-
-
-
-
-
-
-
-
-
-
+console.log(minAndMax())
 
 console.log("\n---------------------------------exercise 28-----------------------------\n")
 
@@ -90,7 +79,51 @@ console.log(arr2)
 
 console.log("\n---------------------------------exercise 29-----------------------------\n")
 
-//Create a function that gets 2 arrays as parameters and returns the longest one
+//Create a function that gets 2 arrays as parameters and returns the longest one:
+
+let arr3 = [];
+let arr4 = [];
+
+function longestArray(arr3, arr4) {
+    
+    if (arr3.length > arr4.length) {
+        console.log(arr3);
+        } else {
+        console.log(arr4)
+        }   
+}
+
+console.log(longestArray(["l", "theLongest"], ["long", "longer", "actually the longest"]))
+
+/*let arr3 = ["l", "theLongest"];
+let arr4 = ["long", "longer"];
+
+function longestArray(arr3, arr4) {
+
+    longestArray = arr3[i];
+
+    for (let i=0; i<arr3.length; i++){
+
+        if (longestArray.length < arr3.length){
+            return arr3;
+        } else {
+            return arr4
+        }
+    }
+    
+}
+
+longestArray()*/
+
+
+
+
+
+
+
+
+
+
 
 /*function myFunc (array1, array2) {
 
