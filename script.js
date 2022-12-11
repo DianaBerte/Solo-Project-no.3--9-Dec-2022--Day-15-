@@ -95,7 +95,31 @@ console.log(longestArray(["l", "theLongest"], ["long", "longer", "actually the l
 
 console.log("\n---------------------------------exercise 30-----------------------------\n")
 
-//Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values
+function higherSumOfValues() {
+
+    let arr5 = [200, 2, 2];
+    let sum5 = 0;
+
+    for (let value5 of arr5){
+        sum5 = sum5 + value5
+    };
+
+    let arr6 = [100, 3, 3];
+    let sum6 = 0;
+
+    for (let value6 of arr6){
+        sum6 = sum6 + value6
+    };
+
+    if (sum5 > sum6){
+        return sum5
+    } else {
+        return sum6
+    }
+
+}
+
+console.log(higherSumOfValues())
 
 console.log("\n---------------------------------exercise 31-----------------------------\n")
 
